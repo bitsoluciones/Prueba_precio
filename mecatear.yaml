@@ -1,0 +1,15 @@
+#RUTA DEL DRIVE
+train: /content/dataset/dataset_mecatear/Mecatear/images/train/  # train images (relative to 'path') images
+val: /content/dataset/dataset_mecatear/Mecatear/images/val/  # val images (relative to 'path') images
+
+# Classes
+nc: 23  # number of classes
+names: ["manzana_logo", "uva_logo",
+ "hipinto_logo", "pepsi_logo",
+ "acqua_logo", "colombiana_logo",
+ "7up_logo", "naranja_logo", "h2o_logo",
+ "cinta_combo", "cinta_eshora", "texto_combo",
+ "chispa", "cocacola_logo", "yupi_logo",
+ "tutti_logo", "jugos_te_logo", "botella_logo",
+ "cinta_llevatucombo", "cinta_mecatea",
+ "rompetrafico","afiche_jugos","afiche_te"]  # class names
